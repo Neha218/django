@@ -9,7 +9,7 @@ class Student(models.Model):
     )
 
     roll_no = models.IntegerField()
-    photo = models.ImageField(upload_to='photos/%y/%m/%d/')
+    photo = models.ImageField(upload_to='photos/%y/%m/')
     full_name = models.CharField(max_length=100)
     course = models.CharField(max_length=100)
     grade = models.CharField(max_length=100)
