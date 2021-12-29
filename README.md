@@ -17,5 +17,8 @@ pillow for images
 pip install pillow
 
 
+Packages:
+pillow for images
+pip install pillow
 
 asgi - asynchromous server gateway interface
